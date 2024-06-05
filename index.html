@@ -59,21 +59,25 @@
                             <textarea 
                                 id="medical-info"
                                 name="medical-info"
-                                cols="50"
-                                rows="10"
+                                cols="30"
+                                rows="5"
                                 placeholder="Especifique caso a criança tenha alguma restrição de saúde.">
                             </textarea>
                         </div>
 
                         <div class="droparea-wrapper">
-                            <input 
-                                id="birth-file"
-                                name="birth-file"
-                                type="file">
-                                <img src="assets/icons/cloud-upload.svg" alt="">
+                            <label for="birth-file">Certidão de Nascimento</label>
+                            <div class="dropzone">
+                                <input 
+                                    id="birth-file"
+                                    name="birth-file"
+                                    type="file">
+                                <!-- <img src="assets/icons/cloud-upload.svg" alt=""> -->
+                                <div class="icon"></div>
                                 <p>
                                     Clique aqui para selecionar os arquivos
                                 </p>
+                            </div>
                         </div>
 
                     </fieldset>
